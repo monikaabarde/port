@@ -49,6 +49,17 @@ body{
     color: var(--color-light);
 }
 
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background: #fff
+    url('https://c.tenor.com/8KWBGNcD-zAAAAAC/loader.gif') no-repeat center;
+    z-index: 99999999999999;
+}
+
+
 h1,h2{
     line-height: 1.1;
     font-weight: 400;
