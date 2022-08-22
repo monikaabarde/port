@@ -67,7 +67,15 @@ if (document.body.clientWidth < 1024) {
     nav.querySelectorAll('li a').forEach(navLink => {
     navLink.addEventListener('click', closeNav);
 });
+};
+
+
+var preloader = document.getElementById('loading');
+
+function myFunction() {
+    preloader.style.display = "none";
 }
+
 
 
 
